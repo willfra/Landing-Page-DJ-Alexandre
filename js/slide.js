@@ -29,7 +29,8 @@ const autoSlide = () => {
     // getting difference value that needs to add or reduce from carousel left to take middle img center
     let valDifference = firstImgWidth - positionDiff;
 
-    if(carousel.scrollLeft > prevScrollLeft) { // if user is scrolling to the right
+    if(carousel.scrollLeft > prevScrollLeft) { 
+        // if user is scrolling to the right
         return carousel.scrollLeft += positionDiff > firstImgWidth / 3 ? valDifference : -positionDiff;
     }
     // if user is scrolling to the left
