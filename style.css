@@ -51,9 +51,11 @@ header .menu {
   align-content: center;
   flex-wrap: wrap;
   flex-direction: row;
+  overflow: hidden;
 }
 
 .content {
+  overflow: hidden;
   max-width: 1500px;
   display: flex;
   width: 100%;
@@ -62,7 +64,6 @@ header .menu {
   align-content: center;
   flex-direction: column;
   flex-wrap: nowrap;
-  padding: 0 20px;
 }
 
 header .logo {
@@ -244,6 +245,7 @@ section#slide {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
+  padding: 0 20px;
 }
 
 .section_title i {
