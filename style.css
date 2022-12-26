@@ -129,12 +129,12 @@ header .background-text {
 }
 
 header .title {
-  font-size: 2rem;
+ /*  font-size: 2rem; */
   font-weight: 700;
 }
 
 header .description {
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
 }
 
 header .title a {
@@ -304,7 +304,11 @@ section#slide {
   .carousel img {
     width: calc(98% / 2);
   }
+  * {
+    font-size: clamp(0.9em, 0.9em + 0.2vw, 0.2em);
+  }
 }
+
 
 @media screen and (max-width: 550px) {
   .carousel img {
